@@ -149,7 +149,7 @@
     {
       "customType": "regex",
       "managerFilePatterns": [
-        "/^manifest.yaml$/"
+        "/(^|\\/)manifest.ya?ml$/"
       ],
       "datasourceTemplate": "go",
       "matchStrings": [

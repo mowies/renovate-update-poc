@@ -1,4 +1,4 @@
-FROM golang:1.25.0@sha256:91e2cd436f7adbfad0a0cbb7bf8502fa863ed8461414ceebe36c6304731e0fd9
+FROM golang:1.27.3@sha256:2920bb124f1a2e12a1d39f0cab756ae0068441ee1da7655dec7f5e374944095b
 
 COPY --chmod=755 otelcol-ebpf-profiler /otelcol-ebpf-profiler
 ENTRYPOINT ["/otelcol-ebpf-profiler"]
